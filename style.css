@@ -1,0 +1,71 @@
+
+
+.flexible-area{
+    display: flex;
+}
+.flexible-area img{
+    width: 300px;
+}
+.half-width{
+    width:50%;
+    margin-left: 10%;
+    margin-right: 10px;
+}
+.half-width img{
+    width: 500px;
+    margin-bottom: 150px;
+}
+.select-position{
+    margin-top: 100px;
+}
+h1{
+    font-size: 60px;
+}
+.color{
+    color:rgba(109, 81, 10, 0.5)
+}
+.link-button{
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(tomato,rgb(241, 74, 233));
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(201, 155, 155);
+}
+#add-border{
+    border-left: solid 5px;
+border-image: linear-gradient( green, red);
+border-image-slice: 1;
+}
+.box-item{
+    width: 20%;
+    border-radius: 10px;
+margin-left: 10%;
+box-shadow:0px 0px 0px;
+padding: 10px 15px;
+}
+.box-item img{
+    width: 200px;
+}
+#add-background{
+    background-color: rgb(138, 176, 185);
+}
+#new-background{
+    background-color: rgba(119, 59, 65, 0.479);
+}
+#last-background{
+    background-color: rgba(119, 110, 30, 0.411);
+}
+.text-position{
+    text-align: center;
+}
+footer{
+    color: rgb(1, 12, 6);
+    background-color:rgb(205, 205, 250);
+}
+#foot-color{
+    color: rgba(3, 61, 18, 0.692);
+}
+footer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
